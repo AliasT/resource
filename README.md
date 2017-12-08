@@ -1,13 +1,12 @@
 # resource
 vue and react resource
 
-
 ```jsx
 const resourceUrl = "/api/post/:postId"
-
 const payload = { postId: 3 }
+```
 
-
+```jsx
 /* react */
 <Resource url={resourceUrl} render={post => (
   post.title
