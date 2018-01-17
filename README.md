@@ -8,9 +8,11 @@ const payload = { postId: 3 }
 
 ```jsx
 /* react */
-<Resource url={resourceUrl} render={post => (
-  post.title
-)}>
+<Resource url={resourceUrl}>
+  {post => (
+    post.title
+  )}
+</Resource>
 
 ```
 
